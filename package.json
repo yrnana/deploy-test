@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "rm -rf build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "yarn build",
